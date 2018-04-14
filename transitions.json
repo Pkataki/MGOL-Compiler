@@ -1,0 +1,202 @@
+[
+	{
+		"id": 0,
+		"transitions": {
+			"+" : 1 ,
+		  	"-" : 1, 
+			"\"" : 5, 
+			"{" : 7, 
+			"LETTER" : 9,
+			"<" : 11, 
+			">" : 14, 
+			"=" : 12, 
+			"*" : 15, 
+			"/" : 15,
+			"(" : 16, 
+			")" : 17, 
+			";" : 18, 
+			"DIGIT" : 2, 
+			"\t" : 0,
+			"\n" : 0, 
+			" " : 0, 
+			"EOF" : 10
+		}
+	},
+
+
+	{
+		"id": 1,
+		"final": true,
+		"token" : "OPM",
+		"transitions" :{
+			"DIGIT": 2 
+		}
+	},
+
+
+	{
+		"id": 2,
+		"final": true,
+		"token" : "NUM",
+		"transitions" :{
+			"DIGIT" : 2, 
+			"." : 3, 
+			"E" : 19 
+		}
+	},
+
+
+	{
+		"id": 3,
+		"transitions":{ 
+			"DIGIT" : 4
+		}
+	},
+
+
+	{
+		"id": 4 ,
+		"final": true,
+		"token" : "NUM",
+		"transitions" :{
+			"DIGIT": 4, 
+			"E" : 19 
+		}
+	},
+
+
+	{
+		"id": 5 ,
+		"self_loop" : true,
+		"transitions" :{
+			"\"" : 6
+		
+		}
+	},
+
+
+	{
+		"id": 6 ,
+		"final" : true,
+		"token" : "LITERAL"
+	},
+
+
+	{
+		"id": 7,
+		"self_loop" : true,
+		"transitons" : {
+			"}" : 8		
+		}
+	},
+
+	{
+		"id": 8 ,
+		"final" : true,
+		"token" : "COMENTARIO"
+	},
+
+	{
+		"id": 9 ,
+		"final" : true,
+		"token" : "ID",
+		"transitions" : 
+		{
+			"DIGIT" : 9,
+			"LETTER" : 9,
+			"_" : 9
+		}
+	},
+
+	{
+		"id": 10 ,
+		"final" : true,
+		"token" : "EOF"
+	},
+
+	{
+		"id" : 11,
+		"final" : true,
+		"token" : "OPR",
+		"transitions" : {
+		 	"-" : 13, 
+		 	"=" : 12, 
+		 	">" : 12
+		 }
+	},
+
+	{
+		"id" : 12,
+		"final" : true,
+		"token" : "OPR"
+	},
+
+	{
+		"id" : 13,
+		"final" : true,
+		"token" : "RCB"
+	},
+
+	{
+		"id" : 14,
+		"final" : true,
+		"token" : "OPR",
+		"transitions" : 
+		{
+			"=" :12
+		}
+	},
+
+	{
+		"id" : 15,
+		"final" : true,
+		"token" : "OPM"
+	},
+
+	{
+		"id" : 16,
+		"final" : true,
+		"token" : "AB_P"
+	},
+
+	{
+		"id" : 17,
+		"final" : true,
+		"token" : "FC_P"
+	},
+
+	{
+		"id" : 18,
+		"final" : true,
+		"token" : "PT_V"
+	},
+
+	{
+		"id" : 19,
+		"transitions" : 
+		{
+			"+" : 20 ,
+			"-" : 20
+		}
+	},
+
+
+	{
+		"id" : 20,
+		"transitions" : 
+		{
+			"DIGIT" : 20 
+		}
+	},
+
+
+	{
+		"id" : 21,
+		"final" : true,
+		"token" : "NUM",
+		"transitions" : 
+		{
+			"+" : 20 
+		}
+	}
+]
