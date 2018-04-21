@@ -16,19 +16,32 @@ class Lexic_Analyzer
 		has_error = 0
 		
 		
-		while true
+		while @found_eof == false
+			
 			char = IO.read(@file,SIZEBYTES,@offset)
 			#print char + "\n"
-			if char.nil? and name_lexeme.size == 0
+			if TYPE::is_eof(char) and name_lexeme.size == 0
+
+				char = "EOF"
 				
-				actual_state = nil
+				@found_eof = true
+				
+				last_state = @states[actual_state]["transitions"][char]
+				
+				actual_state = @states[last_state]["transitions"] # always retur nil
 
-				last_state = 10	
-
+				name_lexeme = char
+			
 			else
+				
 				if char == "\n"
-					@line_error += 1
-					@columns_error = 0
+					if @has_endline == false
+						@has_endline = true
+						@line_error += 1
+						@columns_error = 0
+					end
+				else
+					@has_endline = false
 				end
 				
 				type_char = TYPE::get_type(char)
@@ -59,7 +72,9 @@ class Lexic_Analyzer
 				name_lexeme = name_lexeme.strip
 				
 				if @states[last_state]["final"] == true
+					
 					@offset -= 1
+					
 					if name_lexeme.size > 0 and $symbol_table.has_key?(name_lexeme) == false and @states[last_state]["token"] == TOKENS::ID 
 						
 						$symbol_table[name_lexeme] = Element.new :token => @states[last_state]["token"], :lexeme => name_lexeme	
@@ -94,6 +109,10 @@ class Lexic_Analyzer
 
 		@offset = 0
 
+		@found_eof = false
+
+		@has_endline = false
+
 		@file = file
 		
 		@line_error = 1
@@ -110,12 +129,10 @@ end
 
 
 
-def create_symbol_table
-	reserved_words = Set.new(["inicio","varinicio", "varfim",
-							"escreva", "leia", "se", "entao",
-							"senao", "fimse", "fim", "inteiro",
-							"literal", "real"])
+def create_symbol_table(reserved_words_file)
 
+	reserved_words = JSON.parse(File.read(reserved_words_file))
+		
 	symbol_table = Hash.new 
 
 	reserved_words.each do |word|
@@ -125,23 +142,35 @@ def create_symbol_table
 	return symbol_table
 end
 
+def print_table(col_labels, table, format)
+	
+	board = ["+", "-"*15, "+", "-"*15,"+", "-"*15, "+"]
+	puts format % board
+	puts format % col_labels
+	puts format % board
+	table.each do |key, value|
+	  puts format % ["|",value.lexeme, "|" ,value.token,"|" ,value.type, "|"]
+	end
+	puts format % board
+end
+
 
 # begin here
 if __FILE__ == $0
 
-	$symbol_table = create_symbol_table
+	$symbol_table = create_symbol_table("reserved_words.json")
 
 	LA = Lexic_Analyzer.new("code.alg","transitions.json")
 
-	while a = LA.get_next_token and !TYPE::is_eof(a.lexeme)
+	while a = LA.get_next_token
 		
 		print "#{a.lexeme}  #{a.token}\n"
-
+		if TYPE::is_eof(a.lexeme)
+			break
+		end
 	end
 
-	
-	$symbol_table.each do |a,b|
-		printf "LEXEME: %-20s TOKEN: %s\n", a, b.token
-	end
-
+	col_labels = [ "|","TOKEN", "|","LEXEME", "|","TYPE", "|" ]
+	format = '%s%-15s %s%-15s %s%-15s%s'
+	print_table(col_labels,$symbol_table,format)
 end

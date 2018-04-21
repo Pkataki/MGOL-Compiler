@@ -8,9 +8,10 @@ inicio;
 	
 	escreva "Digite B";
 	
-	leia B;
-
+	leia BB;
+	
 	escreva "Digite A:";
+	
 	leia A;
 	
 	se(B>2)
@@ -26,7 +27,7 @@ inicio;
 	B<-B+3;
 	D<-B;
 	C<-5.0;
-	
+
 	escreva "\nB=\n";
 	escreva D;
 	escreva "\n";
