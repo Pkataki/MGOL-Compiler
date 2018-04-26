@@ -56,7 +56,8 @@ class Lexic_Analyzer
 			
 			#reading one byte at a time
 			char = IO.read(@file,SIZEBYTES,@offset) 
-	
+			
+			# offset on file
 			@offset += 1 
 
 			if TYPE::is_eof(char) 
@@ -72,14 +73,8 @@ class Lexic_Analyzer
 					@error_handling.lexic_error("Invalid " + type_error, @first_appearence_line - @repeated_breakline,@first_appearence_column)
 			
 				end
-
-				char = "EOF"
 				
 				@found_eof = true
-				
-				last_state = @states[0]["transitions"][char]
-				
-				name_lexeme = char
 				
 				return build_lexeme(last_state,name_lexeme)
 				
@@ -93,8 +88,6 @@ class Lexic_Analyzer
 				end
 
 				last_state = current_state
-
-				# offset on file
 				
 				# checking transitions of the actual state
 				if not @states[current_state]["transitions"].nil?
