@@ -1,6 +1,8 @@
 [
 	{
 		"id": 0,
+		"final" : true,
+		
 		"transitions": {
 			"+" : 15,
 		  	"-" : 15, 

@@ -62,8 +62,9 @@ class Lexic_Analyzer
 
 			if TYPE::is_eof(char) 
 
+				@found_eof = true
 				#checking literal and comentary error	
-				if @states[current_state]["final"].nil? 
+				if @states[current_state]["final"].nil?
 					
 					error_state = @states[current_state]["transitions"].values.first
 				
@@ -74,7 +75,7 @@ class Lexic_Analyzer
 			
 				end
 				
-				@found_eof = true
+				
 				
 				return build_lexeme(last_state,name_lexeme)
 				
@@ -229,7 +230,7 @@ if __FILE__ == $0
 	while a = LA.get_next_token
 		
 		print "#{a.lexeme}  #{a.token}\n\n"
-		if TYPE::is_eof(a.lexeme)
+		if TYPE::is_eof(a.token)
 			break
 		end
 	end
