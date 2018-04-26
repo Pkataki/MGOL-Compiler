@@ -85,7 +85,7 @@
 	{
 		"id": 7,
 		"self_loop" : true,
-		"transitons" : {
+		"transitions" : {
 			"}" : 8		
 		}
 	},

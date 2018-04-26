@@ -9,7 +9,7 @@
 	"senao", 
 	"fimse", 
 	"fim", 
-	"inteiro",
-	"literal", 
+	"int",
+	"lit", 
 	"real"
 ]
