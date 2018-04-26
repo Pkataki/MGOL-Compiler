@@ -22,10 +22,10 @@ inicio
 		fimse
 	fimse
 	
-	B<-B+1;
+	B<-B+2E55;
 	B<-B+2;
 	B<-B+3;
 	D<-B;
 	C<-5.0;
-
+	2E555E
 fim
