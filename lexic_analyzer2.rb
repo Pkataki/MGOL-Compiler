@@ -15,7 +15,6 @@ class Lexic_Analyzer
 			
 			@offset -= 1
 
-
 			#checking if the lexeme read has the token "ID"
 			if not TYPE::is_eof(name_lexeme)  and not $symbol_table.has_key?(name_lexeme)  and @states[last_state]["token"] == TOKENS::ID 
 				
@@ -34,7 +33,7 @@ class Lexic_Analyzer
 
 		# an invalid lexeme appeared
 		else
-			@error_handling.lexic_error(char,"Invalid lexeme",@line_error - @repeated_breakline,@columns_error)
+			@error_handling.lexic_error("Invalid lexeme",@line_error - @repeated_breakline,@columns_error)
 		end	
 
 	end
@@ -57,7 +56,9 @@ class Lexic_Analyzer
 			
 			#reading one byte at a time
 			char = IO.read(@file,SIZEBYTES,@offset) 
-			
+	
+			@offset += 1 
+
 			if TYPE::is_eof(char) 
 
 				#checking literal and comentary error	
@@ -68,7 +69,7 @@ class Lexic_Analyzer
 					type_error = @states[error_state]["token"] == TOKENS::LITERAL ? "Literal": "Comentary"
 
 					#raising exception  
-					@error_handling.lexic_error(char,"Invalid " + type_error, @first_appearence_line - @repeated_breakline,@first_appearence_column)
+					@error_handling.lexic_error("Invalid " + type_error, @first_appearence_line - @repeated_breakline,@first_appearence_column)
 			
 				end
 
@@ -78,12 +79,8 @@ class Lexic_Analyzer
 				
 				last_state = @states[0]["transitions"][char]
 				
-				#always return nil
-				current_state = @states[last_state]["transitions"] 
-
-
 				name_lexeme = char
-
+				
 				return build_lexeme(last_state,name_lexeme)
 				
 
@@ -98,8 +95,7 @@ class Lexic_Analyzer
 				last_state = current_state
 
 				# offset on file
-				@offset += 1 
-
+				
 				# checking transitions of the actual state
 				if not @states[current_state]["transitions"].nil?
 	
@@ -121,12 +117,9 @@ class Lexic_Analyzer
 					end
 
 				else
-
 					update_breaklines(char)
 					return build_lexeme(last_state,name_lexeme)
-					
 				end
-
 				
 			end
 
@@ -138,7 +131,7 @@ class Lexic_Analyzer
 			
 		end
 
-
+		return build_lexeme(@states[0]["transitions"]["EOF"],"EOF")
 	end
 
 	def generate_states()
@@ -189,7 +182,7 @@ class Lexic_Analyzer
 		
 		@line_error = 1
 
-		@columns_error = 1
+		@columns_error = 0
 
 		@error_handling = Error_handle.new
 
@@ -235,9 +228,10 @@ end
 # begin here
 if __FILE__ == $0
 
+	name_file = ARGV[0]
 	$symbol_table = create_symbol_table("reserved_words.json")
 
-	LA = Lexic_Analyzer.new("code.alg","transitions.json")
+	LA = Lexic_Analyzer.new(name_file,"transitions.json")
 
 	while a = LA.get_next_token
 		

@@ -16,8 +16,8 @@ class Element
 end
 
 class Error_handle
-	def lexic_error(lexeme, msg, line, column)  
-  		raise msg +" #{lexeme} at line #{line}, column #{column}"  
+	def lexic_error(msg, line, column)  
+  		raise msg +" at line #{line}, column #{column}"  
   	end  
 end
 
@@ -30,19 +30,6 @@ module TYPE
 	def TYPE::is_eof(str)
 		return (str.nil? or (!(str.size != 0) ) or str == EOF)
 	end
-
-	def TYPE::get_type(str)
-		if str == nil
-			return EOF
-		end
-		if str.match(/[A-Za-z]/) then 
-			return LETTER 
-		elsif str.match(/[0-9]/)
-			return DIGIT 
-		else
-			return str
-		end
-	end	
 end
 
 module TOKENS
