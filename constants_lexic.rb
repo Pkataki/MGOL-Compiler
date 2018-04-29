@@ -28,7 +28,7 @@ module TYPE
 	EOF = "EOF"
 
 	def TYPE::is_eof(str)
-		return (str.nil? or (!(str.size != 0) ) or str == EOF)
+		return (str.nil? or  str.size == 0  or str == EOF)
 	end
 end
 

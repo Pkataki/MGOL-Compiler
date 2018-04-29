@@ -7,9 +7,13 @@ class Lexic_Analyzer
 	SIZEBYTES = 1
 
 	def build_lexeme(last_state, name_lexeme)
-
 		name_lexeme = name_lexeme.strip
 		
+
+		if TYPE::is_eof(name_lexeme)
+			return Element.new :token => "EOF", :lexeme => "EOF"	
+		end
+
 		#last_state is a final state
 		if @states[last_state]["final"] == true 
 			
@@ -75,11 +79,8 @@ class Lexic_Analyzer
 			
 				end
 				
-				
-				
 				return build_lexeme(last_state,name_lexeme)
 				
-
 			else
 
 				#updating lines and columns if occur some error
@@ -98,6 +99,7 @@ class Lexic_Analyzer
 						# checking if a state is a self loop
 						if @states[current_state]["self_loop"].nil?
 
+							# build lexeme because is a final state
 							update_breaklines(char) 
 							return build_lexeme(last_state,name_lexeme)
 				
@@ -111,6 +113,7 @@ class Lexic_Analyzer
 					end
 
 				else
+					# build lexeme because is a final state
 					update_breaklines(char)
 					return build_lexeme(last_state,name_lexeme)
 				end
@@ -125,7 +128,8 @@ class Lexic_Analyzer
 			
 		end
 
-		return build_lexeme(@states[0]["transitions"]["EOF"],"EOF")
+		#building EOF lexeme
+		return build_lexeme(last_state,name_lexeme)
 	end
 
 	def generate_states()
@@ -229,10 +233,12 @@ if __FILE__ == $0
 
 	while a = LA.get_next_token
 		
+		
 		print "#{a.lexeme}  #{a.token}\n\n"
 		if TYPE::is_eof(a.token)
 			break
 		end
+		
 	end
 
 	col_labels = [ "|","TOKEN", "|","LEXEME", "|","TYPE", "|" ]

@@ -27,5 +27,5 @@ inicio
 	B<-B+3;
 	D<-B;
 	C<-5.0;
-	2E555E
+	2E555E-
 fim
