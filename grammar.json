@@ -1,0 +1,183 @@
+[
+	{},
+	{
+		"left": "P'", 
+		"right": "P", 
+		"size": 1
+	},
+	
+	{
+		"left": "P", 
+		"right": "inicio V A", 
+		"size": 3
+	},
+	
+	{
+		"left": "V", 
+		"right": "varinicio LV",
+		"size": 2
+	},
+	
+	{
+		"left": "LV", 
+		"right": "D LV", 
+		"size": 2
+	},
+	
+	{
+		"left": "LV", 
+		"right": "varfim ;", 
+		"size": 2
+	},
+	
+	{
+		"left": "D", 
+		"right": "id TIPO ;", 
+		"size": 3
+	},
+	
+	{
+		"left": "TIPO", 
+		"right": "int", 
+		"size": 1
+	},
+	
+	{
+		"left": "TIPO", 
+		"right": "real", 
+		"size": 1
+	},
+	
+	{	
+		"left": "TIPO", 
+		"right": "lit", 
+		"size": 1
+	},
+	
+	{
+		"left": "A", 
+		"right": "ES A", 
+		"size": 2
+	},
+	
+	{
+		"left": "ES", 
+		"right": "leia id ;", 
+		"size": 3
+	},
+	
+	{
+		"left": "ES", 
+		"right": "escreva ARG ;", 
+		"size": 3
+	},
+	
+	{
+		"left": "ARG", 
+		"right": "lit", 
+		"size": 1
+	},
+	
+	{
+		"left": "ARG", 
+		"right": "num", 
+		"size": 1
+	},
+	
+	{
+		"left": "ARG",
+	 	"right": "id",
+	  	"size": 1
+	},
+	
+	{
+		"left": "A", 
+		"right": "CMD A", 
+		"size": 2
+	},
+	
+	{
+		"left": "CMD", 
+		"right": "id rcb LD ;", 
+		"size": 4
+	},
+	
+	{
+		"left": "LD", 
+		"right": "OPRD opm OPRD", 
+		"size": 3
+	},
+	
+	{
+		"left": "LD", 
+		"right": "OPRD", 
+		"size": 1
+	},
+	
+	{
+		"left": "OPRD", 
+		"right": "id", 
+		"size": 1
+	},
+	
+	{
+		"left": "OPRD", 
+		"right": "num", 
+		"size": 1
+	},
+	
+	{
+		"left": "A", 
+		"right": "COND A",
+		"size": 2
+	},
+	
+	{
+		"left": "COND", 
+		"right": "CABECALHO CORPO", 
+		"size": 2
+	},
+	
+	{
+		"left": "CABECALHO", 
+		"right": "se ( EXP_R ) entao", 
+		"size": 5
+	},
+	
+	{
+		"left": "EXP_R", 
+		"right": "OPRD opr OPRD", 
+		"size": 3
+	},
+	
+	{
+		"left": "CORPO", 
+		"right": "ES CORPO", 
+		"size": 2
+	},
+	
+	{
+		"left": "CORPO", 
+		"right": "CMD CORPO", 
+		"size": 2
+	},
+	
+	{
+		"left": "CORPO", 
+		"right": "COND CORPO", 
+		"size": 2
+	},
+	
+	{
+		"left": "CORPO",
+		"right": "fimse", 
+		"size": 1
+	},
+	
+	{
+		"left": "A", 
+		"right": "fim", 
+		"size": 1
+	}
+
+]

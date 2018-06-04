@@ -1,7 +1,7 @@
 inicio
 	varinicio
 		K lit;
-		a int;
+		A int;
 		D int;
 		C real;
 	varfim;
@@ -14,9 +14,9 @@ inicio
 	
 	leia A;
 
-	se(B>2)
-	entao
-		se(B<=4) 
+	se (B < 2 )
+	entao	
+		se (B <= 4)
 		entao
 			escreva "B esta entre 2 e 4";
 		fimse
@@ -27,5 +27,5 @@ inicio
 	B<-B+3;
 	D<-B;
 	C<-5.0;
-	2E555E-
+	A <- 2E55 + 5;
 fim

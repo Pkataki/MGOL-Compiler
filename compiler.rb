@@ -1,19 +1,31 @@
 $LOAD_PATH << '.'
 require 'json'
-require 'constants_lexic'
+require 'auxiliary_compiler'
 
 class Lexic_Analyzer
 
 	SIZEBYTES = 1
 
-	def build_lexeme(last_state, name_lexeme)
+	@line_error = 1
+
+	@columns_error = 0
+
+	def get_line_error()
+		return @line_error - @repeated_breakline
+	end
+
+	def get_column_error()
+		return @columns_error
+	end
+
+	def build_token(last_state, name_lexeme)
 		name_lexeme = name_lexeme.strip
 		
 
 		if TYPE::is_eof(name_lexeme)
 			return Element.new :token => "EOF", :lexeme => "EOF"	
 		end
-
+		
 		#last_state is a final state
 		if @states[last_state]["final"] == true 
 			
@@ -54,7 +66,6 @@ class Lexic_Analyzer
 		name_lexeme = "" 
 		current_state = 0 
 		last_state = 0
-		has_error = 0
 		
 		while @found_eof == false
 			
@@ -79,43 +90,51 @@ class Lexic_Analyzer
 			
 				end
 				
-				return build_lexeme(last_state,name_lexeme)
+				return build_token(last_state,name_lexeme)
 				
 			else
 
 				#updating lines and columns if occur some error
 				if char == "\n"
 					@line_error += 1
-					@columns_error = 0
+					@columns_error = 1
 				end
 
 				last_state = current_state
 				
 				# checking transitions of the actual state
 				if not @states[current_state]["transitions"].nil?
-	
+					
 					if @states[current_state]["transitions"][char].nil?
-						
+					
 						# checking if a state is a self loop
 						if @states[current_state]["self_loop"].nil?
+							#print "entered here!! #{@states[last_state]["final"].nil}\n"
+							
+							#invalid lexeme
+							if char != nil and current_state == 0
+								last_state = 1
+								name_lexeme = "*"
+							end
+							
 
-							# build lexeme because is a final state
+							#build lexeme because is a final state			
 							update_breaklines(char) 
-							return build_lexeme(last_state,name_lexeme)
-				
+							return build_token(last_state,name_lexeme)
+									
 						end
 
 					# going to next state in the DFA
 					else
 						@first_appearence_line = @line_error
 						@first_appearence_column = @columns_error
-						current_state = @states[current_state]["transitions"][char] 
+						current_state = @states[current_state]["transitions"][char]
 					end
 
 				else
 					# build lexeme because is a final state
 					update_breaklines(char)
-					return build_lexeme(last_state,name_lexeme)
+					return build_token(last_state,name_lexeme)
 				end
 				
 			end
@@ -129,11 +148,13 @@ class Lexic_Analyzer
 		end
 
 		#building EOF lexeme
-		return build_lexeme(last_state,name_lexeme)
+		return build_token(last_state,name_lexeme)
 	end
 
 	def generate_states()
 		
+		#change the DIGIT for all digits and LETTER for all letters
+
 		letters = ("A".."Z").to_a + ("a" .. 'z').to_a
 
 		numbers = ("0" .. "9").to_a
@@ -180,7 +201,7 @@ class Lexic_Analyzer
 		
 		@line_error = 1
 
-		@columns_error = 0
+		@columns_error = 1
 
 		@error_handling = Error_handle.new
 
@@ -190,8 +211,100 @@ class Lexic_Analyzer
 
 	end
 
-	private :build_lexeme, :update_breaklines, :generate_states
+	private :build_token, :update_breaklines, :generate_states
+	#public :line_error, :columns_error
+end
 
+
+class Syntactic_Analyser
+	
+
+	def run()
+
+		stack = [0]
+
+		a = @LA.get_next_token()
+		
+		while true 
+			
+			
+			
+			s = stack.last()
+			state = @table_actions[s][a.token]
+			#print "STACK: #{stack} \n#{a.lexeme} -- #{a.token} at: #{s} state: #{state[0]}\n"
+			
+			
+			
+			if state[0] == "S"
+				
+				#print "entrei no shift\n";
+				t = state[1..-1]
+
+				stack.push(Integer(t))
+
+				a = @LA.get_next_token()
+			
+			elsif state[0] == "R"
+
+
+				#print "entrei no reduce\n";
+				#print "#{state}\n"
+				t = state[1..-1]
+				#print "#{Integer(t)}\n"
+
+				#print "size : #{(@grammar[Integer(t)]["size"])}\n"
+
+				for count in (1 .. (@grammar[Integer(t)]["size"]))
+					stack.pop()
+				end
+				
+				aa = @grammar[Integer(t)]["left"]; 
+					
+				t = stack.last()
+
+				#print "STACK: #{stack} ** atual: #{t}\n"
+				
+				next_state = @table_transitions[Integer(t)][aa]
+			
+				stack.push(next_state)
+				
+				print "#{@grammar[Integer(state[1..-1])]["left"]} ->  #{@grammar[Integer(state[1..-1])]["right"]}\n"
+
+
+			elsif state[0] == "E"
+
+				#print "entrei no error\n";
+				#print "#{state}\n"
+				t = state[1..-1]
+				#print "error #{t}\n"
+				@error_handling.syntactic_error(state,@LA.get_line_error,@LA.get_column_error)
+				break;
+			elsif state[0] == "A"
+
+				#print "#{state}\n"
+				print "The code is syntactically correct\n"
+				break
+			
+			end
+
+		end
+	end
+
+
+	def initialize(actions_file,transitions_file, grammar_file, lexic)
+
+		@error_handling = Error_handle.new
+
+		@LA = lexic
+
+		@grammar = JSON.parse(File.read(grammar_file))
+		
+		@table_actions = JSON.parse(File.read(actions_file))
+
+		@table_transitions = JSON.parse(File.read(transitions_file))
+
+		#print @table_actions[45]
+	end
 end
 
 
@@ -231,17 +344,12 @@ if __FILE__ == $0
 
 	LA = Lexic_Analyzer.new(name_file,"transitions.json")
 
-	while a = LA.get_next_token
-		
-		
-		print "#{a.lexeme}  #{a.token}\n\n"
-		if TYPE::is_eof(a.token)
-			break
-		end
-		
-	end
+	SA = Syntactic_Analyser.new("syntactic_table_actions.json", "syntactic_table_transitions.json", "grammar.json", LA)
 
-	col_labels = [ "|","TOKEN", "|","LEXEME", "|","TYPE", "|" ]
-	format = '%s%-15s %s%-15s %s%-15s%s'
-	print_table(col_labels,$symbol_table,format)
+	SA.run()
+
+
+#	col_labels = [ "|","TOKEN", "|","LEXEME", "|","TYPE", "|" ]
+#	format = '%s%-15s %s%-15s %s%-15s%s'
+#	print_table(col_labels,$symbol_table,format)
 end

@@ -1,4 +1,4 @@
-[
+	[
 	{
 		"id": 0,
 		"final" : true,
@@ -28,11 +28,7 @@
 
 	{
 		"id": 1,
-		"final": true,
-		"token" : "OPM",
-		"transitions" :{
-			"DIGIT": 2 
-		}
+		"token" : "REJECTION"
 	},
 
 
@@ -80,7 +76,7 @@
 	{
 		"id": 6 ,
 		"final" : true,
-		"token" : "LITERAL"
+		"token" : "lit"
 	},
 
 
