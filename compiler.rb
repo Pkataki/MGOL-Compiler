@@ -223,65 +223,59 @@ class Syntactic_Analyser
 
 		stack = [0]
 
+		#getting token from lexic analyzer
 		a = @LA.get_next_token()
 		
 		while true 
 			
-			
-			
+			#getting the top of stack
 			s = stack.last()
+
+			#going to the current state on ACTION table
 			state = @table_actions[s][a.token]
-			#print "STACK: #{stack} \n#{a.lexeme} -- #{a.token} at: #{s} state: #{state[0]}\n"
 			
-			
-			
+			#shift state
 			if state[0] == "S"
 				
-				#print "entrei no shift\n";
+				#getting state number
 				t = state[1..-1]
 
 				stack.push(Integer(t))
 
 				a = @LA.get_next_token()
 			
+			#reduce state
 			elsif state[0] == "R"
 
-
-				#print "entrei no reduce\n";
-				#print "#{state}\n"
 				t = state[1..-1]
-				#print "#{Integer(t)}\n"
 
-				#print "size : #{(@grammar[Integer(t)]["size"])}\n"
-
-				for count in (1 .. (@grammar[Integer(t)]["size"]))
-					stack.pop()
-				end
+				#removing |B| from stack
+				stack.pop((@grammar[Integer(t)]["size"]))
 				
 				aa = @grammar[Integer(t)]["left"]; 
 					
 				t = stack.last()
-
-				#print "STACK: #{stack} ** atual: #{t}\n"
 				
 				next_state = @table_transitions[Integer(t)][aa]
 			
 				stack.push(next_state)
 				
+				#printing grammar rule
 				print "#{@grammar[Integer(state[1..-1])]["left"]} ->  #{@grammar[Integer(state[1..-1])]["right"]}\n"
 
-
+			#error state
 			elsif state[0] == "E"
 
-				#print "entrei no error\n";
-				#print "#{state}\n"
 				t = state[1..-1]
-				#print "error #{t}\n"
-				@error_handling.syntactic_error(state,@LA.get_line_error,@LA.get_column_error)
-				break;
-			elsif state[0] == "A"
 
-				#print "#{state}\n"
+				#getting the error, look at auxiliary_compiler file
+				@error_handling.syntactic_error(state,@LA.get_line_error,@LA.get_column_error)
+				
+				break;
+			
+			#accepted state
+			elsif state[0] == "A"
+		
 				print "The code is syntactically correct\n"
 				break
 			
@@ -303,7 +297,6 @@ class Syntactic_Analyser
 
 		@table_transitions = JSON.parse(File.read(transitions_file))
 
-		#print @table_actions[45]
 	end
 end
 
