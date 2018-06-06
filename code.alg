@@ -6,7 +6,7 @@ inicio
 		C real;
 	varfim;
 	
-	escreva "Digite B";
+	escreva "asdasddas" ;
 	
 	leia BB;
 	
@@ -14,7 +14,7 @@ inicio
 	
 	leia A;
 
-	se (B < 2 )
+	se ( B < 2 )
 	entao	
 		se (B <= 4)
 		entao
@@ -27,5 +27,5 @@ inicio
 	B<-B+3;
 	D<-B;
 	C<-5.0;
-	A <- 2E55 + 5;
+	A <- 2.5E55 + 5;
 fim

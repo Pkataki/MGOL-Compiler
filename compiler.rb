@@ -233,13 +233,14 @@ class Syntactic_Analyser
 
 			#going to the current state on ACTION table
 			state = @table_actions[s][a.token]
-			
+#			puts "stack : #{stack}";		
 			#shift state
 			if state[0] == "S"
 				
+#				puts "lexeme: #{a.lexeme} pushed\n"
 				#getting state number
 				t = state[1..-1]
-
+				
 				stack.push(Integer(t))
 
 				a = @LA.get_next_token()
@@ -248,7 +249,7 @@ class Syntactic_Analyser
 			elsif state[0] == "R"
 
 				t = state[1..-1]
-
+#				puts "state: #{t}";
 				#removing |B| from stack
 				stack.pop((@grammar[Integer(t)]["size"]))
 				

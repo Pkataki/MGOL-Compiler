@@ -26,16 +26,16 @@ class Error_handle
 			"E1" 	=> "The \"inicio\" was not found",
 			"E2"	=> "There is no \"fim\"",
 			"E3"	=> "Without \"varinicio\"",
-			"E4"	=> "Without id, leia, escreva, se or fim",
+			"E4"	=> "Without \"id\", \"leia\", \"escreva\", \"se\" or \"fim\"",
 			"E5"	=> "Without \"varfim\" or \"id\"",
 			"E6"	=> "Without \"id\"",
-			"E7"	=> "Without literal, num or id ",
-			"E8" 	=> "Without rcb",
-			"E9"	=> "Without fimse, leia, escreva, id or se",
-			"E10"	=> "Condition without the parenthesis",
+			"E7"	=> "Without \"literal\", \"num\" or \"id\"",
+			"E8" 	=> "Without \"rcb\"",
+			"E9"	=> "Without \"fimse\", \"leia\", \"escreva\", \"id\" or \"se\"",
+			"E10"	=> "Condition without parenthesis",
 			"E11"	=> "Without semicolon",
-			"E12"	=> "Without int, real or literal",
-			"E13"	=> "Without id or num",
+			"E12"	=> "Without \"int\", \"real\" or \"literal\"",
+			"E13"	=> "Without \"id\" or \"num\"",
 			"E14"	=> "Without arithmetic operator",
 			"E15"	=> "Codition without relational operator",
 			"E16"	=> "\"se\"'s block without \"entao\"",
@@ -62,7 +62,7 @@ end
 module TOKENS
 	
 	NUM = "NUM"
-	LITERAL = "lit"
+	LITERAL = "LITERAL"
 	ID = "ID"
 	COMENTARIO = "COMENTARIO"
 	EOF = "EOF"
