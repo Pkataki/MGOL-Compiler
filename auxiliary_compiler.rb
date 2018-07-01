@@ -39,9 +39,14 @@ class Error_handle
 			"E14"	=> "Without arithmetic operator",
 			"E15"	=> "Codition without relational operator",
 			"E16"	=> "\"se\"'s block without \"entao\"",
+			"E17"   => "Conditon without \")\""
 		} 
   		raise "SYNTACTIC ERROR: "+ syntactic_errors[id] +" at line #{line}, column #{column}"  
-  	end  
+  	end 
+
+  	def semantic_error(msg, line, column)  
+  		raise "SEMANTIC ERROR: "+ msg +" at line #{line}, column #{column}"  
+  	end 
 end
 
 module TYPE

@@ -1,0 +1,1147 @@
+["-"] size 1: 1
+
+[0] size 1: 1
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">] size 1: 2
+
+[0, 2] size 1: 2
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">] size 1: 3
+
+[0, 2, 4] size 1: 3
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A">] size 1: 4
+
+[0, 2, 4, 18] size 1: 4
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A">, #<Element:0x00005563fb564e10 @token="lit", @lexeme="lit", @type="lit">] size 1: 5
+
+[0, 2, 4, 18, 39] size 1: 5
+
+
+
+9 === TIPO ->  lit
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A">, #<Element:0x00005563fb564e10 @token="lit", @lexeme="lit", @type="lit">] size 1: 5
+
+[0, 2, 4, 18, 36] size 1: 5
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A">, #<Element:0x00005563fb564e10 @token="lit", @lexeme="lit", @type="lit">, #<Element:0x00005563fb5b6210 @token="PT_V", @lexeme=";">] size 1: 6
+
+[0, 2, 4, 18, 36, 51] size 1: 6
+
+
+
+6 === D ->  id TIPO ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">] size 1: 4
+
+[0, 2, 4, 16] size 1: 4
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B">] size 1: 5
+
+[0, 2, 4, 16, 18] size 1: 5
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B">, #<Element:0x00005563fb564f00 @token="int", @lexeme="int", @type="int">] size 1: 6
+
+[0, 2, 4, 16, 18, 37] size 1: 6
+
+
+
+7 === TIPO ->  int
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B">, #<Element:0x00005563fb564f00 @token="int", @lexeme="int", @type="int">] size 1: 6
+
+[0, 2, 4, 16, 18, 36] size 1: 6
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B">, #<Element:0x00005563fb564f00 @token="int", @lexeme="int", @type="int">, #<Element:0x00005563fb295ec8 @token="PT_V", @lexeme=";">] size 1: 7
+
+[0, 2, 4, 16, 18, 36, 51] size 1: 7
+
+
+
+6 === D ->  id TIPO ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 5
+
+[0, 2, 4, 16, 16] size 1: 5
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D">] size 1: 6
+
+[0, 2, 4, 16, 16, 18] size 1: 6
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D">, #<Element:0x00005563fb564f00 @token="int", @lexeme="int", @type="int">] size 1: 7
+
+[0, 2, 4, 16, 16, 18, 37] size 1: 7
+
+
+
+7 === TIPO ->  int
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D">, #<Element:0x00005563fb564f00 @token="int", @lexeme="int", @type="int">] size 1: 7
+
+[0, 2, 4, 16, 16, 18, 36] size 1: 7
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D">, #<Element:0x00005563fb564f00 @token="int", @lexeme="int", @type="int">, #<Element:0x00005563fb133f80 @token="PT_V", @lexeme=";">] size 1: 8
+
+[0, 2, 4, 16, 16, 18, 36, 51] size 1: 8
+
+
+
+6 === D ->  id TIPO ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">] size 1: 6
+
+[0, 2, 4, 16, 16, 16] size 1: 6
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C">] size 1: 7
+
+[0, 2, 4, 16, 16, 16, 18] size 1: 7
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C">, #<Element:0x00005563fb564d20 @token="real", @lexeme="real", @type="real">] size 1: 8
+
+[0, 2, 4, 16, 16, 16, 18, 38] size 1: 8
+
+
+
+8 === TIPO ->  real
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C">, #<Element:0x00005563fb564d20 @token="real", @lexeme="real", @type="real">] size 1: 8
+
+[0, 2, 4, 16, 16, 16, 18, 36] size 1: 8
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C">, #<Element:0x00005563fb564d20 @token="real", @lexeme="real", @type="real">, #<Element:0x00005563fb5b4ac8 @token="PT_V", @lexeme=";">] size 1: 9
+
+[0, 2, 4, 16, 16, 16, 18, 36, 51] size 1: 9
+
+
+
+6 === D ->  id TIPO ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">] size 1: 7
+
+[0, 2, 4, 16, 16, 16, 16] size 1: 7
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb5657c0 @token="varfim", @lexeme="varfim">] size 1: 8
+
+[0, 2, 4, 16, 16, 16, 16, 17] size 1: 8
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb5657c0 @token="varfim", @lexeme="varfim">, #<Element:0x00005563fb5ad7c8 @token="PT_V", @lexeme=";">] size 1: 9
+
+[0, 2, 4, 16, 16, 16, 16, 17, 35] size 1: 9
+
+
+
+5 === LV ->  varfim ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb5a8458 @token=" ", @lexeme=" ", @type=" ">] size 1: 8
+
+[0, 2, 4, 16, 16, 16, 16, 34] size 1: 8
+
+
+
+4 === LV ->  D LV
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb5a5e38 @token=" ", @lexeme=" ", @type=" ">] size 1: 7
+
+[0, 2, 4, 16, 16, 16, 34] size 1: 7
+
+
+
+4 === LV ->  D LV
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb59fbf0 @token=" ", @lexeme=" ", @type=" ">] size 1: 6
+
+[0, 2, 4, 16, 16, 34] size 1: 6
+
+
+
+4 === LV ->  D LV
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb59dd28 @token=" ", @lexeme=" ", @type=" ">] size 1: 5
+
+[0, 2, 4, 16, 34] size 1: 5
+
+
+
+4 === LV ->  D LV
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb5658d8 @token="varinicio", @lexeme="varinicio">, #<Element:0x00005563fb59c1a8 @token=" ", @lexeme=" ", @type=" ">] size 1: 4
+
+[0, 2, 4, 15] size 1: 4
+
+
+
+3 === V ->  varinicio LV
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">] size 1: 3
+
+[0, 2, 3] size 1: 3
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 4
+
+[0, 2, 3, 11] size 1: 4
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5941b0 @token="lit", @lexeme="\"Digite B\"">] size 1: 5
+
+[0, 2, 3, 11, 24] size 1: 5
+
+
+
+13 === ARG ->  literal
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5941b0 @token="lit", @lexeme="\"Digite B\"">] size 1: 5
+
+[0, 2, 3, 11, 23] size 1: 5
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5941b0 @token="lit", @lexeme="\"Digite B\"">, #<Element:0x00005563fb592b80 @token="PT_V", @lexeme=";">] size 1: 6
+
+[0, 2, 3, 11, 23, 41] size 1: 6
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">] size 1: 4
+
+[0, 2, 3, 6] size 1: 4
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565590 @token="leia", @lexeme="leia">] size 1: 5
+
+[0, 2, 3, 6, 10] size 1: 5
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565590 @token="leia", @lexeme="leia">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 6
+
+[0, 2, 3, 6, 10, 22] size 1: 6
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565590 @token="leia", @lexeme="leia">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb587000 @token="PT_V", @lexeme=";">] size 1: 7
+
+[0, 2, 3, 6, 10, 22, 40] size 1: 7
+
+
+
+11 === ES ->  leia id ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">] size 1: 5
+
+[0, 2, 3, 6, 6] size 1: 5
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 6
+
+[0, 2, 3, 6, 6, 11] size 1: 6
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb57c3a8 @token="lit", @lexeme="\"Digite A:\"">] size 1: 7
+
+[0, 2, 3, 6, 6, 11, 24] size 1: 7
+
+
+
+13 === ARG ->  literal
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb57c3a8 @token="lit", @lexeme="\"Digite A:\"">] size 1: 7
+
+[0, 2, 3, 6, 6, 11, 23] size 1: 7
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb57c3a8 @token="lit", @lexeme="\"Digite A:\"">, #<Element:0x00005563fb572b28 @token="PT_V", @lexeme=";">] size 1: 8
+
+[0, 2, 3, 6, 6, 11, 23, 41] size 1: 8
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">] size 1: 6
+
+[0, 2, 3, 6, 6, 6] size 1: 6
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565590 @token="leia", @lexeme="leia">] size 1: 7
+
+[0, 2, 3, 6, 6, 6, 10] size 1: 7
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565590 @token="leia", @lexeme="leia">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">] size 1: 8
+
+[0, 2, 3, 6, 6, 6, 10, 22] size 1: 8
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565590 @token="leia", @lexeme="leia">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb566d28 @token="PT_V", @lexeme=";">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 10, 22, 40] size 1: 9
+
+
+
+11 === ES ->  leia id ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">] size 1: 7
+
+[0, 2, 3, 6, 6, 6, 6] size 1: 7
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">] size 1: 8
+
+[0, 2, 3, 6, 6, 6, 6, 14] size 1: 8
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33] size 1: 9
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 44] size 1: 10
+
+
+
+20 === OPRD ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 50] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb55d728 @token="OPR", @lexeme="<">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 50, 55] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb55d728 @token="OPR", @lexeme="<">, #<Element:0x00005563fb55b8d8 @token="NUM", @lexeme="2">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 50, 55, 45] size 1: 12
+
+
+
+21 === OPRD ->  num
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb55d728 @token="OPR", @lexeme="<">, #<Element:0x00005563fb55b8d8 @token="NUM", @lexeme="2", @type="int">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 50, 55, 58] size 1: 12
+
+
+
+25 === EXP_R ->  OPRD opr OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb558b38 @token=" ", @lexeme="T0", @type="int">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 49] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb558b38 @token=" ", @lexeme="T0", @type="int">, #<Element:0x00005563fb55a9d8 @token="FC_P", @lexeme=")">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 49, 54] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb55efd8 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb558b38 @token=" ", @lexeme="T0", @type="int">, #<Element:0x00005563fb55a9d8 @token="FC_P", @lexeme=")">, #<Element:0x00005563fb565360 @token="entao", @lexeme="entao">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 14, 33, 49, 54, 57] size 1: 12
+
+
+
+24 === CABECALHO ->  se ( EXP_R ) entao
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">] size 1: 8
+
+[0, 2, 3, 6, 6, 6, 6, 13] size 1: 8
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14] size 1: 9
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 44] size 1: 11
+
+
+
+20 === OPRD ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 50] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb524fe0 @token="OPR", @lexeme="<=">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 50, 55] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb524fe0 @token="OPR", @lexeme="<=">, #<Element:0x00005563fb522380 @token="NUM", @lexeme="4">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 50, 55, 45] size 1: 13
+
+
+
+21 === OPRD ->  num
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb524fe0 @token="OPR", @lexeme="<=">, #<Element:0x00005563fb522380 @token="NUM", @lexeme="4", @type="int">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 50, 55, 58] size 1: 13
+
+
+
+25 === EXP_R ->  OPRD opr OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb51f068 @token=" ", @lexeme="T1", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 49] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb51f068 @token=" ", @lexeme="T1", @type="int">, #<Element:0x00005563fb521368 @token="FC_P", @lexeme=")">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 49, 54] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565478 @token="se", @lexeme="se">, #<Element:0x00005563fb527600 @token="AB_P", @lexeme="(">, #<Element:0x00005563fb51f068 @token=" ", @lexeme="T1", @type="int">, #<Element:0x00005563fb521368 @token="FC_P", @lexeme=")">, #<Element:0x00005563fb565360 @token="entao", @lexeme="entao">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 13, 14, 33, 49, 54, 57] size 1: 13
+
+
+
+24 === CABECALHO ->  se ( EXP_R ) entao
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13] size 1: 9
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 11] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb4ac0e0 @token="lit", @lexeme="\"B esta entre 2 e 4\"">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 11, 24] size 1: 11
+
+
+
+13 === ARG ->  literal
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb4ac0e0 @token="lit", @lexeme="\"B esta entre 2 e 4\"">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 11, 23] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb4ac0e0 @token="lit", @lexeme="\"B esta entre 2 e 4\"">, #<Element:0x00005563fb48ea18 @token="PT_V", @lexeme=";">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 11, 23, 41] size 1: 12
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb456258 @token=" ", @lexeme=" ", @type=" ">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 29] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb456258 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565130 @token="fimse", @lexeme="fimse">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 29, 32] size 1: 11
+
+
+
+29 === CORPO ->  fimse
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb456258 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb43d5f0 @token=" ", @lexeme=" ", @type=" ">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 29, 46] size 1: 11
+
+
+
+26 === CORPO ->  ES CORPO
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4b4fb0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4706a8 @token=" ", @lexeme=" ", @type=" ">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 13, 13, 28] size 1: 10
+
+
+
+23 === COND ->  CABECALHO CORPO
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f2c8 @token=" ", @lexeme=" ", @type=" ">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 13, 31] size 1: 9
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f2c8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565130 @token="fimse", @lexeme="fimse">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 13, 31, 32] size 1: 10
+
+
+
+29 === CORPO ->  fimse
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f2c8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb4493a0 @token=" ", @lexeme=" ", @type=" ">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 13, 31, 48] size 1: 10
+
+
+
+28 === CORPO ->  COND CORPO
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb554fd8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb3b8fd0 @token=" ", @lexeme=" ", @type=" ">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 13, 28] size 1: 9
+
+
+
+23 === COND ->  CABECALHO CORPO
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">] size 1: 8
+
+[0, 2, 3, 6, 6, 6, 6, 8] size 1: 8
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12] size 1: 9
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 44] size 1: 11
+
+
+
+20 === OPRD ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 43] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb165da0 @token="OPM", @lexeme="+">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 43, 53] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb165da0 @token="OPM", @lexeme="+">, #<Element:0x00005563fb1348b8 @token="NUM", @lexeme="1">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 43, 53, 45] size 1: 13
+
+
+
+21 === OPRD ->  num
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb165da0 @token="OPM", @lexeme="+">, #<Element:0x00005563fb1348b8 @token="NUM", @lexeme="1", @type="int">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 43, 53, 56] size 1: 13
+
+
+
+18 === LD ->  OPRD opm OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b58b0 @token=" ", @lexeme="T2", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 42] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb399d38 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b58b0 @token=" ", @lexeme="T2", @type="int">, #<Element:0x00005563fb130c18 @token="PT_V", @lexeme=";">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 12, 27, 42, 52] size 1: 12
+
+
+
+17 === CMD ->  id rcb LD ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7] size 1: 9
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 44] size 1: 12
+
+
+
+20 === OPRD ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 43] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5ab900 @token="OPM", @lexeme="+">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 43, 53] size 1: 13
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5ab900 @token="OPM", @lexeme="+">, #<Element:0x00005563fb5a5398 @token="NUM", @lexeme="2">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 43, 53, 45] size 1: 14
+
+
+
+21 === OPRD ->  num
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5ab900 @token="OPM", @lexeme="+">, #<Element:0x00005563fb5a5398 @token="NUM", @lexeme="2", @type="int">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 43, 53, 56] size 1: 14
+
+
+
+18 === LD ->  OPRD opm OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb593f58 @token=" ", @lexeme="T3", @type="int">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 42] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5b0248 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb593f58 @token=" ", @lexeme="T3", @type="int">, #<Element:0x00005563fb59e4f8 @token="PT_V", @lexeme=";">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 12, 27, 42, 52] size 1: 13
+
+
+
+17 === CMD ->  id rcb LD ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7] size 1: 10
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 44] size 1: 13
+
+
+
+20 === OPRD ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 43] size 1: 13
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb57e630 @token="OPM", @lexeme="+">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 43, 53] size 1: 14
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb57e630 @token="OPM", @lexeme="+">, #<Element:0x00005563fb570aa8 @token="NUM", @lexeme="3">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 43, 53, 45] size 1: 15
+
+
+
+21 === OPRD ->  num
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb57e630 @token="OPM", @lexeme="+">, #<Element:0x00005563fb570aa8 @token="NUM", @lexeme="3", @type="int">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 43, 53, 56] size 1: 15
+
+
+
+18 === LD ->  OPRD opm OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb565400 @token=" ", @lexeme="T4", @type="int">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 42] size 1: 13
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb5876b8 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb565400 @token=" ", @lexeme="T4", @type="int">, #<Element:0x00005563fb56b0a8 @token="PT_V", @lexeme=";">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 12, 27, 42, 52] size 1: 14
+
+
+
+17 === CMD ->  id rcb LD ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7] size 1: 11
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 12] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb55d2a0 @token="RCB", @lexeme="<-">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 12, 27] size 1: 13
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb55d2a0 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 12, 27, 44] size 1: 14
+
+
+
+20 === OPRD ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb55d2a0 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 12, 27, 43] size 1: 14
+
+
+
+19 === LD ->  OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb55d2a0 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 12, 27, 42] size 1: 14
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb55d2a0 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb5b4e10 @token="ID", @lexeme="B", @type="int">, #<Element:0x00005563fb55b388 @token="PT_V", @lexeme=";">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 12, 27, 42, 52] size 1: 15
+
+
+
+17 === CMD ->  id rcb LD ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7] size 1: 12
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 12] size 1: 13
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb554808 @token="RCB", @lexeme="<-">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 12, 27] size 1: 14
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb554808 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb527038 @token="NUM", @lexeme="2E5">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 12, 27, 45] size 1: 15
+
+
+
+21 === OPRD ->  num
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb554808 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb527038 @token="NUM", @lexeme="2E5", @type="real">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 12, 27, 43] size 1: 15
+
+
+
+19 === LD ->  OPRD
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb554808 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb527038 @token="NUM", @lexeme="2E5", @type="real">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 12, 27, 42] size 1: 15
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb554808 @token="RCB", @lexeme="<-">, #<Element:0x00005563fb527038 @token="NUM", @lexeme="2E5", @type="real">, #<Element:0x00005563fb525260 @token="PT_V", @lexeme=";">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 12, 27, 42, 52] size 1: 16
+
+
+
+17 === CMD ->  id rcb LD ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7] size 1: 13
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 11] size 1: 14
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb51cb38 @token="lit", @lexeme="\"\\nB=\\n\"">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 11, 24] size 1: 15
+
+
+
+13 === ARG ->  literal
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb51cb38 @token="lit", @lexeme="\"\\nB=\\n\"">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 11, 23] size 1: 15
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb51cb38 @token="lit", @lexeme="\"\\nB=\\n\"">, #<Element:0x00005563fb4b6518 @token="PT_V", @lexeme=";">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 11, 23, 41] size 1: 16
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6] size 1: 14
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 11] size 1: 15
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 11, 26] size 1: 16
+
+
+
+15 === ARG ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 11, 23] size 1: 16
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb158010 @token="ID", @lexeme="D", @type="int">, #<Element:0x00005563fb4561b8 @token="PT_V", @lexeme=";">] size 1: 17
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 11, 23, 41] size 1: 17
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6] size 1: 15
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 11] size 1: 16
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb44b0d8 @token="lit", @lexeme="\"\\n\"">] size 1: 17
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 11, 24] size 1: 17
+
+
+
+13 === ARG ->  literal
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb44b0d8 @token="lit", @lexeme="\"\\n\"">] size 1: 17
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 11, 23] size 1: 17
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb44b0d8 @token="lit", @lexeme="\"\\n\"">, #<Element:0x00005563fb3b9f20 @token="PT_V", @lexeme=";">] size 1: 18
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 11, 23, 41] size 1: 18
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6] size 1: 16
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 17
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 11] size 1: 17
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">] size 1: 18
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 11, 26] size 1: 18
+
+
+
+15 === ARG ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">] size 1: 18
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 11, 23] size 1: 18
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5b7598 @token="ID", @lexeme="C", @type="real">, #<Element:0x00005563fb5b7ca0 @token="PT_V", @lexeme=";">] size 1: 19
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 11, 23, 41] size 1: 19
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">] size 1: 17
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6] size 1: 17
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 18
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 11] size 1: 18
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5ad610 @token="lit", @lexeme="\"\\n\"">] size 1: 19
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 11, 24] size 1: 19
+
+
+
+13 === ARG ->  literal
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5ad610 @token="lit", @lexeme="\"\\n\"">] size 1: 19
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 11, 23] size 1: 19
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5ad610 @token="lit", @lexeme="\"\\n\"">, #<Element:0x00005563fb5a9538 @token="PT_V", @lexeme=";">] size 1: 20
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 11, 23, 41] size 1: 20
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">] size 1: 18
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6] size 1: 18
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">] size 1: 19
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 11] size 1: 19
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">] size 1: 20
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 11, 26] size 1: 20
+
+
+
+15 === ARG ->  id
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">] size 1: 20
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 11, 23] size 1: 20
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5656a8 @token="escreva", @lexeme="escreva">, #<Element:0x00005563fb5b7200 @token="ID", @lexeme="A", @type="lit">, #<Element:0x00005563fb588e78 @token="PT_V", @lexeme=";">] size 1: 21
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 11, 23, 41] size 1: 21
+
+
+
+12 === ES ->  escreva ARG ;
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb571cc8 @token=" ", @lexeme=" ", @type=" ">] size 1: 19
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6] size 1: 19
+
+
+
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb571cc8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb565018 @token="fim", @lexeme="fim">] size 1: 20
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 9] size 1: 20
+
+
+
+30 === A ->  fim
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb571cc8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5678b8 @token=" ", @lexeme=" ", @type=" ">] size 1: 20
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 19] size 1: 20
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb594368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5644d8 @token=" ", @lexeme=" ", @type=" ">] size 1: 19
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 19] size 1: 19
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b1a30 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55ec40 @token=" ", @lexeme=" ", @type=" ">] size 1: 18
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 19] size 1: 18
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb148368 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55d278 @token=" ", @lexeme=" ", @type=" ">] size 1: 17
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 6, 19] size 1: 17
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb44f390 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55bf68 @token=" ", @lexeme=" ", @type=" ">] size 1: 16
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 6, 19] size 1: 16
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb48d3c0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55a898 @token=" ", @lexeme=" ", @type=" ">] size 1: 15
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 6, 19] size 1: 15
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb51f220 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb559448 @token=" ", @lexeme=" ", @type=" ">] size 1: 14
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 7, 20] size 1: 14
+
+
+
+16 === A ->  CMD A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556388 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5580e8 @token=" ", @lexeme=" ", @type=" ">] size 1: 13
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 7, 20] size 1: 13
+
+
+
+16 === A ->  CMD A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55e6f0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb556ce8 @token=" ", @lexeme=" ", @type=" ">] size 1: 12
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 7, 20] size 1: 12
+
+
+
+16 === A ->  CMD A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a340 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5558e8 @token=" ", @lexeme=" ", @type=" ">] size 1: 11
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 7, 20] size 1: 11
+
+
+
+16 === A ->  CMD A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5b3858 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb5575f8 @token=" ", @lexeme=" ", @type=" ">] size 1: 10
+
+[0, 2, 3, 6, 6, 6, 6, 8, 7, 20] size 1: 10
+
+
+
+16 === A ->  CMD A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb31ab78 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb526ed0 @token=" ", @lexeme=" ", @type=" ">] size 1: 9
+
+[0, 2, 3, 6, 6, 6, 6, 8, 21] size 1: 9
+
+
+
+22 === A ->  COND A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb55fdc0 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb525a30 @token=" ", @lexeme=" ", @type=" ">] size 1: 8
+
+[0, 2, 3, 6, 6, 6, 6, 19] size 1: 8
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb569938 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb525198 @token=" ", @lexeme=" ", @type=" ">] size 1: 7
+
+[0, 2, 3, 6, 6, 6, 19] size 1: 7
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb57f198 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb523320 @token=" ", @lexeme=" ", @type=" ">] size 1: 6
+
+[0, 2, 3, 6, 6, 19] size 1: 6
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb58a070 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb522588 @token=" ", @lexeme=" ", @type=" ">] size 1: 5
+
+[0, 2, 3, 6, 19] size 1: 5
+
+
+
+10 === A ->  ES A
+["-", #<Element:0x00005563fb565a18 @token="inicio", @lexeme="inicio">, #<Element:0x00005563fb596bb8 @token=" ", @lexeme=" ", @type=" ">, #<Element:0x00005563fb521a70 @token=" ", @lexeme=" ", @type=" ">] size 1: 4
+
+[0, 2, 3, 5] size 1: 4
+
+
+
+2 === P ->  inicio V A
+["-", #<Element:0x00005563fb5210e8 @token=" ", @lexeme=" ", @type=" ">] size 1: 2
+
+[0, 1] size 1: 2
+
+
+
+The code is syntactically correct
