@@ -8,11 +8,13 @@ void main(void){
 	int T2;
 	int T3;
 	int T4;
-	double T5;
+	int T5;
+	double T6;
+	double T7;
 	/*------------------------------*/
 	lit A;
 	int B;
-	int D;
+	double D;
 	double E;
 	double C;
 
@@ -26,21 +28,25 @@ void main(void){
 	if( T0 ){
 		T1 = B <= 4;
 		if( T1 ){
-			printf("B esta entre 2 e 4");
+			T2 = B >= 7;
+			if( T2 ){
+				printf("B esta entre 2 e 4");
+			}
 		}
 	}
-	T2 = B + 1;
-	B = T2;
-	T3 = B + 2;
+	T3 = B + 1;
 	B = T3;
-	T4 = B + 3;
+	T4 = B + 2;
 	B = T4;
-	D = B;
+	T5 = B + 3;
+	B = T5;
+	T6 = B + 1.0;
+	D = T6;
 	E = 5.5;
-	T5 = 2E5 + E;
-	C = T5;
+	T7 = 2E5 + E;
+	C = T7;
 	printf("\nB=\n");
-	printf("%d",D);
+	printf("%lf",D);
 	printf("\n");
 	printf("%lf",C);
 	printf("\n");

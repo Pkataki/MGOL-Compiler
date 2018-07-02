@@ -221,13 +221,18 @@ class Syntactic_Analyser
 
 	def semantic(grammar_rule)
 		
+		s = ""
+
+		msg = ""
+
 		a = Element.new :token => " ", :lexeme => " ", :type => " " 
 
 		case grammar_rule
 
 		when 5
 			
-			@output_string += "\n\n\n"
+			s += "\n\n\n"
+			msg = "put 3 \"n\n"
 
 		when 6
 			
@@ -245,13 +250,13 @@ class Syntactic_Analyser
 			end
 
 			for i in (1 .. @count_space)
-				@output_string += "\t"
+				s += "\t"
 			end
 
-			@output_string += "#{t} #{id.lexeme};\n"
+			s += "#{t} #{id.lexeme};\n"
+			msg = "#{t} #{id.lexeme};\n"
 
 			a = id
-
 
 		when 7
 
@@ -261,6 +266,8 @@ class Syntactic_Analyser
 	
 			a = tipo
 
+			msg = "Tipo.tipo <- int.tipo\n"
+
 		when 8 
 
 			tipo = @stack_symbols.last()
@@ -268,6 +275,8 @@ class Syntactic_Analyser
 			tipo.type = $symbol_table["real"].type
 
 			a = tipo
+
+			msg = "Tipo.tipo <- real.tipo\n"
 		
 		when 9 
 
@@ -277,6 +286,8 @@ class Syntactic_Analyser
 
 			a = tipo	
 
+			msg = "Tipo.tipo <- lit.tipo\n"
+
 		when 11
 			
 			ptv = @stack_symbols[-1]
@@ -285,18 +296,21 @@ class Syntactic_Analyser
 
 			
 			for i in (1 .. @count_space)
-				@output_string += "\t"
+				s += "\t"
 			end
 			
 
 			if id.type == "lit"
-				@output_string += "scanf(\"%s\",#{id.lexeme});\n"
+				s += "scanf(\"%s\",#{id.lexeme});\n"
+				msg = "scanf(\"%s\",#{id.lexeme});\n"
 			
 			elsif id.type == "real"
-			 	@output_string += "scanf(\"%lf\",&#{id.lexeme});\n"
+			 	s += "scanf(\"%lf\",&#{id.lexeme});\n"
+			 	msg = "scanf(\"%lf\",#{id.lexeme});\n"
 			
 			elsif id.type == "int"
-				@output_string += "scanf(\"%d\",&#{id.lexeme});\n"
+				s += "scanf(\"%d\",&#{id.lexeme});\n"
+				msg = "scanf(\"%d\",#{id.lexeme});\n"
 				
 			else
 				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
@@ -309,30 +323,42 @@ class Syntactic_Analyser
 			arg = @stack_symbols[-2]
 			
 			for i in (1 .. @count_space)
-				@output_string += "\t"
+				s += "\t"
 			end
 
 			if arg.type == "lit"
-				@output_string += "printf(\"%s\",#{arg.lexeme});\n"
-			
+				s += "printf(\"%s\",#{arg.lexeme});\n"
+				msg = "printf(\"%s\",#{arg.lexeme});\n"
+
 			elsif arg.type == "int"
-				@output_string += "printf(\"%d\",#{arg.lexeme});\n"
+				s += "printf(\"%d\",#{arg.lexeme});\n"
+				msg = "printf(\"%d\",#{arg.lexeme});\n"
 
 			elsif arg.type == "real"
-				@output_string += "printf(\"%lf\",#{arg.lexeme});\n"
+				s += "printf(\"%lf\",#{arg.lexeme});\n"
+				msg = "printf(\"%lf\",#{arg.lexeme});\n"
+
 			else
-				@output_string += "printf(#{arg.lexeme});\n"
+				s += "printf(#{arg.lexeme});\n"
+				msg = "printf(#{arg.lexeme});\n"
+
 			end
 
 		when 13
 			
 			lit = @stack_symbols.last()
+			
 			a = lit
+
+			msg = "arg.atributos = literal.atributos\n"
 
 		when 14
 			
 			num = @stack_symbols.last()
+			
 			a = num
+			
+			msg = "arg.atributos = num.atributos\n"
 
 		when 15
 
@@ -340,6 +366,7 @@ class Syntactic_Analyser
 
 			if id.type != ""
 				a = id
+				msg = "arg.atributos = id.atributos"
 			else
 				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
 			end
@@ -356,16 +383,19 @@ class Syntactic_Analyser
 				if ld.type == id.type
 					
 					for i in (1 .. @count_space)
-						@output_string += "\t"
+						s += "\t"
 					end
 			
-					@output_string += "#{id.lexeme} = #{ld.lexeme};\n"
+					s += "#{id.lexeme} = #{ld.lexeme};\n"
+					msg = "#{id.lexeme} = #{ld.lexeme};\n"
 				else
 					@error_handling.semantic_error("Diferent types in atribution",@LA.get_line_error,@LA.get_column_error)
 				end
 			else
 				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
 			end
+
+			msg = s
 
 		when 18
 			
@@ -384,12 +414,15 @@ class Syntactic_Analyser
 				end
 
 				for i in (1 .. @count_space)
-					@output_string += "\t"
+					s += "\t"
 				end
 			
-				@output_string += "T#{@type_t.size()} = #{oprd1.lexeme} #{opm.lexeme} #{oprd2.lexeme};\n"
-				
+				s += "T#{@type_t.size()} = #{oprd1.lexeme} #{opm.lexeme} #{oprd2.lexeme};\n"
+				msg = "T#{@type_t.size()} = #{oprd1.lexeme} #{opm.lexeme} #{oprd2.lexeme};\n"
+
 				@type_t.push(a.type)
+
+				
 
 			else
 				@error_handling.semantic_error("Operands with incompatible types",@LA.get_line_error,@LA.get_column_error)
@@ -400,6 +433,7 @@ class Syntactic_Analyser
 
 			oprd = @stack_symbols.last()
 			a = oprd
+			msg = "LD.atributos = OPRD.atributos\n"
 
 
 		when 20
@@ -408,6 +442,7 @@ class Syntactic_Analyser
 
 			if id.type != ""
 				a = id
+				msg = "OPRD.atributos = id.atributos\n"
 			else
 				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
 			end
@@ -422,16 +457,16 @@ class Syntactic_Analyser
 			else
 				a.type = "int"
 			end
-
+			msg = "OPRD.atributos = num.atributos"
 		when 23
 			
 			@count_space -= 1
 			for i in (1 .. @count_space)
-				@output_string += "\t"
+				s += "\t"
 			end
 
-			@output_string += "}\n"
-			
+			s += "}\n"
+			msg = "put }\n"
 
 		when 24
 			
@@ -439,10 +474,12 @@ class Syntactic_Analyser
 			exp_r = @stack_symbols[-3]
 			
 			for i in (1 .. @count_space)
-				@output_string += "\t"
+				s += "\t"
 			end
 
-			@output_string += "if( #{exp_r.lexeme} ){\n"
+			s += "if( #{exp_r.lexeme} ){\n"
+
+			msg = "if( #{exp_r.lexeme} ){\n"
 			
 			@count_space += 1
 
@@ -459,17 +496,26 @@ class Syntactic_Analyser
 				
 				
 				for i in (1 .. @count_space)
-					@output_string += "\t"
+					s += "\t"
 				end
 			
-				@output_string += "T#{@type_t.size()} = #{oprd1.lexeme} #{opr.lexeme} #{oprd2.lexeme};\n"
-				
+				s += "T#{@type_t.size()} = #{oprd1.lexeme} #{opr.lexeme} #{oprd2.lexeme};\n"
+				msg = "T#{@type_t.size()} = #{oprd1.lexeme} #{opr.lexeme} #{oprd2.lexeme};\n"
 				@type_t.push(a.type)
 			else
 				@error_handling.semantic_error("Operands with incompatible types",@LA.get_line_error,@LA.get_column_error)
 			end
 
+			else
+
+				msg = "-\n"
+
 		end
+		print "\n\n\n---------------------------------\n\n";
+
+		print "Semantic rule: #{msg}\n"
+
+		@output_string += s
 		
 		return a
 
@@ -530,8 +576,9 @@ class Syntactic_Analyser
 				@stack_symbols.push(p)
 
 				#printing grammar rule
-				print "#{@grammar[Integer(state[1..-1])]["left"]} ->  #{@grammar[Integer(state[1..-1])]["right"]}\n"
 
+				print "Syntactic Rule: #{@grammar[Integer(state[1..-1])]["left"]} ->  #{@grammar[Integer(state[1..-1])]["right"]}\n"
+				print "\n\n---------------------------------\n\n\n";
 			#error state
 			elsif state[0] == "E"
 
@@ -628,7 +675,7 @@ def print_table(col_labels, table, format)
 	puts format % col_labels
 	puts format % board
 	table.each do |key, value|
-	  puts format % ["|",value.lexeme, "|" ,value.token,"|" ,value.type, "|"]
+	  puts format % ["|",value.token, "|" ,value.lexeme,"|" ,value.type, "|"]
 	end
 	puts format % board
 end
