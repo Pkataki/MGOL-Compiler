@@ -44,8 +44,8 @@ class Error_handle
   		raise "SYNTACTIC ERROR: "+ syntactic_errors[id] +" at line #{line}, column #{column}"  
   	end 
 
-  	def semantic_error(msg, line, column)  
-  		raise "SEMANTIC ERROR: "+ msg +" at line #{line}, column #{column}"  
+  	def semantic_error(msg, line)  
+  		raise "SEMANTIC ERROR: "+ msg +" at line #{line}"  
   	end 
 end
 

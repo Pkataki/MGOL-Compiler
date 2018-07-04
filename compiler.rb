@@ -313,7 +313,7 @@ class Syntactic_Analyser
 				msg = "scanf(\"%d\",#{id.lexeme});\n"
 				
 			else
-				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
+				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error)
 			end
 
 
@@ -363,12 +363,12 @@ class Syntactic_Analyser
 		when 15
 
 			id = @stack_symbols.last()
-
-			if id.type != ""
+			#print "Id: #{id.lexeme} Type: #{id.type}\n"
+			if id.type.nil? == false
 				a = id
 				msg = "arg.atributos = id.atributos"
 			else
-				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
+				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error)
 			end
 
 		when 17
@@ -378,7 +378,7 @@ class Syntactic_Analyser
 			rcb = @stack_symbols[-3]
 			id = @stack_symbols[-4]
 
-			if id.type != ""
+			if id.type.nil? == false
 				
 				if ld.type == id.type
 					
@@ -389,10 +389,11 @@ class Syntactic_Analyser
 					s += "#{id.lexeme} = #{ld.lexeme};\n"
 					msg = "#{id.lexeme} = #{ld.lexeme};\n"
 				else
-					@error_handling.semantic_error("Diferent types in atribution",@LA.get_line_error,@LA.get_column_error)
+					print "ld: #{ld.type} id: #{id.type}\n"
+					@error_handling.semantic_error("Different types in atribution",@LA.get_line_error)
 				end
 			else
-				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
+				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error)
 			end
 
 			msg = s
@@ -425,7 +426,7 @@ class Syntactic_Analyser
 				
 
 			else
-				@error_handling.semantic_error("Operands with incompatible types",@LA.get_line_error,@LA.get_column_error)
+				@error_handling.semantic_error("Operands with incompatible types",@LA.get_line_error)
 			end
 	
 		
@@ -440,11 +441,11 @@ class Syntactic_Analyser
 
 			id = @stack_symbols.last()
 
-			if id.type != ""
+			if id.type.nil? == false
 				a = id
 				msg = "OPRD.atributos = id.atributos\n"
 			else
-				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error,@LA.get_column_error)
+				@error_handling.semantic_error("The variable was not declared",@LA.get_line_error)
 			end
 	
 
@@ -503,7 +504,7 @@ class Syntactic_Analyser
 				msg = "T#{@type_t.size()} = #{oprd1.lexeme} #{opr.lexeme} #{oprd2.lexeme};\n"
 				@type_t.push(a.type)
 			else
-				@error_handling.semantic_error("Operands with incompatible types",@LA.get_line_error,@LA.get_column_error)
+				@error_handling.semantic_error("Operands with incompatible types",@LA.get_line_error)
 			end
 
 			else
@@ -614,7 +615,8 @@ class Syntactic_Analyser
 
 				@output_file.close()
 
-				print "The code is syntactically correct\n"
+				print "The code is syntactically and semantically correct\n"
+				print "The intermidiate code was generated sucessfully in Prog.c\n"
 				break
 			
 			end
